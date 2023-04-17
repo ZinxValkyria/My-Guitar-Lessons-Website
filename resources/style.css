@@ -1,0 +1,23 @@
+html{
+    background-image:url("/static/Home.jpg");
+}
+.intro{
+    font-family: 'Ace Sans', sans-serif;  
+                                            
+}
+h1{
+    font-family: 'BoogieNightsNF', sans-serif;}
+.navbar{
+    position: sticky;
+}
+.container{
+    opacity: 0.8;
+}
+.nav-link{
+    font-family: 'BoogieNightsNF', sans-serif;}
+button{
+    padding:5px;
+    border-radius: 10px;
+    box-shadow: 20px;
+    text-align: center;
+}
