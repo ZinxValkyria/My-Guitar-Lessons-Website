@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.cdnfonts.com/css/boogienightsnf" rel="stylesheet">   
+  <link href="https://fonts.cdnfonts.com/css/ace-sans" rel="stylesheet">
+    <link href="/static/style.css" rel="stylesheet">
+  <%- include('../partials/head'); %>
+</head>
+<body class="container">
+
+<header>
+  <%- include('../partials/header'); %>
+</header>
+
+<main>
+  <div class="jumbotron">
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title>Guitar Lessons</title>
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <header>
+        <nav>
+          <ul style = "float: right;">
+            <li><a href="#about">About</a></li>
+            <li><a href="#lessons">Lessons</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="hero-image">
+          <h1>Guitar Lessons</h1>
+          <p>Learn to play guitar with a professional instructor</p>
+        </div>
+      </header>
+    
+      
+    
+        <section id="lessons">
+          <h2>Our Lessons</h2>
+          <p>We offer a variety of lesson plans to suit your needs:</p>
+          <ul>
+            <li>Beginner Lessons - Learn the basics of playing guitar</li>
+            <li>Intermediate Lessons - Improve your technique and learn new styles</li>
+            <li>Advanced Lessons - Master advanced techniques and develop your own style</li>
+            <li>Song Lessons - Learn to play your favorite songs</li>
+          </ul>        </section>
+    
+        <section id="pricing">
+          <h2>Pricing</h2>
+          <p>My pricing is competitive and transparent. I offer:</p>
+          <ul>
+            <li>Single lesson: £30</li>
+            <li>5-lesson package: £120 (save £50)</li>
+            <li>10-lesson package: £200 (save £100)</li>
+          </ul>
+          <p>I also offer a free 20-minute online trial lesson to new students.<br>You can contact me below</p>
+        </section>
+    
+        <section id="contact">
+          <h2>Contact Me</h2>
+          <form method="post" action="submit-form.php">
+            <label for="name">Name&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email &nbsp&nbsp&nbsp&nbsp&nbsp</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message&nbsp</label>
+            <textarea id="message" name="message" required></textarea><br>
+            <button type="submit">Send Message</button>
+          </form>
+        </section>
+  </div>
+</main>
+
+<footer>
+  <%- include('../partials/footer'); %>
+</footer>
+
+</body>
+</html>

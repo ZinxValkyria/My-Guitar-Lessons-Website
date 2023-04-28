@@ -40,12 +40,12 @@ app.get('/', function(req, res) {
 });
 
 // about page
-app.get('/about', function(req, res) {
-  res.render('pages/about');
+app.get('/services', function(req, res) {
+  res.render('pages/services');
 });
 // portfolio page
-app.get('/portfolio', function(req, res) {
-    res.render('pages/portfolio');
+app.get('/contact', function(req, res) {
+    res.render('pages/contact');
   });
   
 
