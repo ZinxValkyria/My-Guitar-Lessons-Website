@@ -1,12 +1,15 @@
 html{
-    background-image:url("/static/Home.jpg");
+    background-image:url("/static/guitar.jpg");
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .intro{
     font-family: 'Ace Sans', sans-serif;  
                                             
 }
 h1{
-    font-family: 'BoogieNightsNF', sans-serif;}
+    font-family: 'Poppins', sans-serif;}
 .navbar{
     position: sticky;
 }
@@ -14,7 +17,7 @@ h1{
     opacity: 0.8;
 }
 .nav-link{
-    font-family: 'BoogieNightsNF', sans-serif;}
+    font-family: 'Poppins', sans-serif;}
 button{
     padding:5px;
     border-radius: 10px;
