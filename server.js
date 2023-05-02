@@ -3,7 +3,6 @@ const express = require('express');
 const app = express();
 const port = 8080;
 
-run().catch(console.dir);
 // set the view engine to ejs
 app.set('view engine', 'ejs');
 
