@@ -1,5 +1,5 @@
 const express = require('express');
-require('mongoose');
+require('newrelic');
 const app = express();
 const port = 8080;
 const mongoose = require('mongoose');
