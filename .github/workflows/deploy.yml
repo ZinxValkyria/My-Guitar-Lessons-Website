@@ -8,13 +8,13 @@ on:
 
 jobs:
 
-    build-frontend and push:
+    build-frontend-and-push:
         runs on: ubuntu-latest
 
         steps:
         - name: Docker Login
           uses: docker/login-action@v2.1.0
-            with:
-              username: zinx666
-              password: ${{ secrets.DOCKER_HUB_API_KEY }}
+          with:
+            username: zinx666
+            password: ${{ secrets.DOCKER_HUB_API_KEY }}
  
