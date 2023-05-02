@@ -1,0 +1,15 @@
+name: Deploy to test server
+
+on:
+    push:
+        branches:
+            - master
+    workflow_displatch:
+
+jobs:
+
+    build-frontend and push:
+        runs on: ubuntu-latest
+
+        steps:
+        - run
