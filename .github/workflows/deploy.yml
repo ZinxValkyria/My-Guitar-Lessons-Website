@@ -9,7 +9,7 @@ on:
 jobs:
 
     build-frontend-and-push:
-        runs on: ubuntu-latest
+        runs-on: ubuntu-latest
 
         steps:
         - name: Docker Login
