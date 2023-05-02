@@ -43,6 +43,11 @@ app.get('/', function(req, res) {
 app.get('/services', function(req, res) {
   res.render('pages/services');
 });
+
+// about page
+app.get('/bio', function(req, res) {
+  res.render('pages/bio');
+});
 // portfolio page
 app.get('/contact', function(req, res) {
     res.render('pages/contact');
