@@ -1,4 +1,5 @@
 const express = require('express');
+require('mongoose');
 const app = express();
 const port = 8080;
 const mongoose = require('mongoose');
