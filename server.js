@@ -1,5 +1,5 @@
 const express = require('express');
-//require('newrelic');
+require('newrelic');
 const app = express();
 const port = 8080;
 
