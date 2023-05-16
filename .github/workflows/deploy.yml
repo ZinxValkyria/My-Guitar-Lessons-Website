@@ -25,4 +25,4 @@ jobs:
           with:
              context: .
              push: true
-             tags: zinx666/test
+             tags: zinx666/ghactions
