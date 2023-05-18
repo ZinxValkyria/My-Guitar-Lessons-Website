@@ -27,7 +27,7 @@ app.get('/', function(req, res) {
 
 // about page
 app.get('/services', function(req, res) {
-  res.render('pages/services');
+  res.render('pages/services');/*  */
 });
 
 // about page
