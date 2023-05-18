@@ -3,12 +3,23 @@ const app = express();
 const port = 8080;
 require('newrelic');
 const UserModel = require("./models/user");
-var bodyParser = require('body-parser');
+var https = require('https');
+var http = require('http');
 const mongoose = require('mongoose');
 
 // Replace the placeholder with your Atlas connection string
 const uri = "mongodb+srv://Blain:deadlyZ31@cluster0.dlimqkn.mongodb.net/?retryWrites=true&w=majority";
-// Create a MongoClient with a MongoClientOptions object to set the Stable API version
+
+// This line is from the Node.js HTTPS documentation.
+var options = {
+  key: fs.readFileSync('ssh/key.pem'),
+  cert: fs.readFileSync('ssh/cert.cert')
+};
+
+// Create an HTTP service.
+http.createServer(app).listen(80);
+// Create an HTTPS service identical to the HTTP service.
+https.createServer(options, app).listen(443);
 
 // set the view engine to ejs
 app.set('view engine', 'ejs');
