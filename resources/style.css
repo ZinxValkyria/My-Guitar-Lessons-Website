@@ -5,11 +5,15 @@ html{
   background-position: center;
 }
 .intro{
-    font-family: 'Ace Sans', sans-serif;  
-                                            
-}
-h1{
-    font-family: 'Poppins', sans-serif;}
+  font-family: 'Roboto Mono', monospace;
+  }
+  div{
+    font-family: 'Roboto Mono', monospace;}
+   h1{
+  font-family: 'Roboto Mono', monospace;}
+  h2{
+    font-family: 'Roboto Mono', monospace;}
+  
 .navbar{
     position: sticky;
 }
@@ -17,17 +21,13 @@ h1{
     opacity: 0.9;
 }
 .nav-link{
-    font-family: 'Poppins', sans-serif;}
+  font-family: 'Roboto Mono', monospace;}
 button{
     padding:5px;
     border-radius: 10px;
     box-shadow: 20px;
     text-align: center;
-}
-
-
-      
-    
+}    
 form {
     display: flex;
     flex-direction: column;
@@ -72,4 +72,4 @@ form {
   button[type="submit"]:hover {
     background-color: #0069d9;
   }
-  </style>
+ 
